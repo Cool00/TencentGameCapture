@@ -1,0 +1,317 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head> 
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>应用详情 - 应用宝官网</title>
+<link href="http://img6.sj.qq.com/res/static/myapp/staticVersion/20140928/assets/css/app/page/detailsLess.css?t=20140928.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="http://img1.sj.qq.com/api/styles/sjqqapi.css" />
+<!--[if lt IE 9]>
+<script type="text/javascript"> 
+  var html5Tags=['header' ,'footer','article','nav' ,'section','aside'];
+  for(var i=0;i<html5Tags.length;i++){
+      document.createElement(html5Tags[i]);
+  }
+</script>
+<![endif]-->
+<script charset="utf-8" async="" src="http://img4.sj.qq.com/res/static/myapp/assets/js/jquery-seajs.js"></script><script charset="utf-8" async="" src="http://img4.sj.qq.com/res/static/myapp/staticVersion/20140928/assets/js/app/page/details.js"></script></head>
+<body urlpre="http://myapp.com" urlpath="http://img4.sj.qq.com/res/static/myapp">
+<div class="com-header">
+	<div class="com-header-center-container"> 
+		<a class="com-header-logo-link" id="J_logo" href="http://sj.qq.com"></a>
+      	<ul class="com-menu-list-box">
+      		<li><a class="com-menu-btn" id="J_index" href="http://sj.qq.com">首页</a></li>
+        	<li><a class="com-menu-btn selected" href="http://sj.qq.com/myapp/">应用市场</a><i class="com-hot"></i></li>
+        	<li><a class="com-menu-btn" href="http://bbs.open.qq.com/forum-1687-1.html" target="_blank">用户论坛</a></li>
+        	<li class="com-borderR"><a class="com-menu-btn" target="_blank" href="http://open.qq.com/">开放平台</a></li>
+      	</ul>
+   		<div class="clear"></div>
+	</div>
+</div>
+<div class="com-nav">
+	<div class="com-nav-center-container"> 
+      	<ul class="com-nav-list-box">
+      		<li><a class="com-nav-btn " href="../myapp/index.htm">广场</a></li>
+        	<li><a class="com-nav-btn " href="../myapp/category.htm?orgame=1">应用</a></li>
+        	<li class="last"><a class="com-nav-btn " href="../myapp/category.htm?orgame=2">游戏</a></li>
+      	</ul>
+<div class="search">
+	<form id="J_SearchForm" role="search" action="/myapp/search.htm" method="get">
+		<label for="kw">
+			<input id="J_MainInput" autocomplete="off" class="search-input" type="text" value="搜索应用或游戏..." size="20" name="kw" /> 
+			<input id="J_SearchBtn" type="submit" value="" class="icon-search" />
+		</label>
+	</form>
+	<div id="J_HotSearch" class="hot-search" data-loaded="false">
+		<div class="hot-search-box">
+			<span class="hot-search-title">热门搜索</span>
+			<ul id="J_HotSearchList" class="hot-search-list"></ul>
+		</div>
+	</div>
+	<div id="J_SearchAssociate" class="search-associate">
+		<div class="hot-associate-box">
+			<ul id="J_AssociateList" class="associate-list"></ul>
+		</div>
+	</div>
+</div>   		<div class="clear"></div>
+	</div>
+	
+</div>
+<div class="com-container" id="J_DetDataContainer" flag="24661">
+	<div class="det-main-container">
+		<div class="det-ins-container J_Mod " data-modname="appInfo">
+			<div class="det-icon">
+				<img src="http://pp.myapp.com/ma_icon/0/icon_11285571_21399036_1436358691/96" />
+				<i class="icon-union-safe">315可信应用白名单</i>
+			</div>
+			<div class="det-ins-data">
+				<div class="det-name">
+					<div class="det-name-int">全民突击</div>
+					<div class="official-btn" id="J_GfHoverBtn" style="display: block;">
+						<div class="official-text">官方</div>
+						<div class=" official-hover-box"><span class="out-corner">◆<span class="int-corner">◆</span></span></div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="det-star-box">
+					<div class="com-star-4-D det-ins-star"></div>
+					<div class="com-blue-star-num">3.6分</div>
+					<a class="det-comment-num" href="#CommentList" id="J_DetCommentNum"><a href="#CommentList" id="J_CommentCount">（79895人评论）</a></a>
+					<div class="clear"></div>
+				</div>
+				<div class="det-insnum-line">
+					<div class="det-ins-num">4526万下载</div>
+					<div class="det-insnum-dot">·</div>
+					<div class="det-size">232.83M</div>
+					<div class="det-insnum-dot">·</div><div id="J_AdvBox" class="det-adv adv-btn">无广告</div>
+					<div class="det-type-box">
+						<div class="det-type-tit">分类：</div>
+						<a href="category.htm?categoryId=121&amp;orgame=2" class="det-type-link" id="J_DetCate">网络游戏</a>
+						<div class="clear"></div>
+						<i class="icon-union-safe">315可信应用白名单</i>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="det-ins-btn-box">
+				<a class="det-ins-btn" href="javascript:void(0)" onclick="qqapp_dl_apk(this);" ex_url="http://dd.myapp.com/16891/5E76AA09A6F09B54C04F2F1A43D09D9D.apk?fsname=com.tencent.WeFire_1.7.0_2510.apk&amp;asr=8eff" asistanturlid="990499" appname="全民突击" appicon="http://pp.myapp.com/ma_icon/0/icon_11285571_21399036_1436358691/96" apk="com.tencent.WeFire"></a>
+				<a class="det-down-btn" href="javascript:void(0)" data-apkurl="http://dd.myapp.com/16891/5E76AA09A6F09B54C04F2F1A43D09D9D.apk?fsname=com.tencent.WeFire_1.7.0_2510.apk&amp;asr=8eff" appname="全民突击" apk="com.tencent.WeFire"></a>
+			</div>
+			<div class="clear"></div> 
+		</div>
+		<div class="det-pic-scroll-container" id="J_PicTurnContainer" style="height: 400px;">
+            <div id="J_PicTurnHoverBox" class="pic-turn-hover-box">
+                <span id="J_PicTurnHiddenBox" class="pic-turn-hidden-box" style="margin-top: -5px;">
+                    <span id="J_PicTurnImgBox" class="pic-turn-img-box">
+                    	<div class="pic-img-box">
+                        	<img data-src="http://pp.myapp.com/ma_pic2/0/shot_11285571_21399036_1_1436358689/550" src="http://pp.myapp.com/ma_pic2/0/shot_11285571_21399036_1_1436358689/550" id="picInImgBoxImg0" height="400" width="266" style="display: block;" />
+                        	<!--<div class="pic-img-int-border"></div>-->
+                        </div>
+                    	<div class="pic-img-box">
+                        	<img data-src="http://pp.myapp.com/ma_pic2/0/shot_11285571_21399036_2_1436358689/550" src="http://pp.myapp.com/ma_pic2/0/shot_11285571_21399036_2_1436358689/550" id="picInImgBoxImg1" height="400" width="266" style="display: block;" />
+                        	<!--<div class="pic-img-int-border"></div>-->
+                        </div>
+                    	<div class="pic-img-box">
+                        	<img data-src="http://pp.myapp.com/ma_pic2/0/shot_11285571_21399036_3_1436358689/550" src="http://pp.myapp.com/ma_pic2/0/shot_11285571_21399036_3_1436358689/550" id="picInImgBoxImg2" height="400" width="266" style="display: block;" />
+                        	<!--<div class="pic-img-int-border"></div>-->
+                        </div>
+                    	<div class="pic-img-box">
+                        	<img data-src="http://pp.myapp.com/ma_pic2/0/shot_11285571_21399036_4_1436358689/550" src="http://pp.myapp.com/ma_pic2/0/shot_11285571_21399036_4_1436358689/550" id="picInImgBoxImg3" height="400" width="266" style="display: block;" />
+                        	<!--<div class="pic-img-int-border"></div>-->
+                        </div>
+                    	<div class="pic-img-box">
+                        	<img data-src="http://pp.myapp.com/ma_pic2/0/shot_11285571_21399036_5_1436358689/550" src="http://pp.myapp.com/ma_pic2/0/shot_11285571_21399036_5_1436358689/550" id="picInImgBoxImg4" height="400" width="266" style="display: block;" />
+                        	<!--<div class="pic-img-int-border"></div>-->
+                        </div>
+                    </span>
+                </span>
+                <span id="J_PicTurnLeftBtn" class="pic-turn-left-btn"></span>
+                <span id="J_PicTurnRightBtn" class="pic-turn-right-btn picTurnBtn"></span>
+            </div>
+            <div class="det-pic-loading" id="J_DetPicLoading" style="display: none;"></div>
+		</div>
+		<div class="det-othinfo-container J_Mod" data-modname="appOthInfo">
+			<div class="det-othinfo-tit">版本号：</div>
+			<div class="det-othinfo-data">V1.7.0</div>
+			<div class="det-othinfo-tit">更新时间：</div>
+			<div class="det-othinfo-data" id="J_ApkPublishTime" data-apkpublishtime="1436358691">2015年7月8日</div>
+			<div class="det-othinfo-tit">开发商：</div>
+			<div class="det-othinfo-data">光速工作室</div>
+			<div class="clear"></div>
+		</div>
+		<div class="det-intro-container">
+            <div class="det-intro-tit">应用信息</div>
+            <div class="det-intro-text" id="J_DetAppDataInfo" style="height: 63px;">
+                <div class="det-app-data-info">《全民突击》全新团队PK版本震撼来袭，快来和好友一起PK吧！《全民突击》是腾讯首款3D枪战手游。 全3D绚丽画面，打造电影级视觉盛宴；经典名枪、炫酷战车，构建军迷博物馆；最强佣兵团养成系统，晋升全能指挥官；闯关模式、无尽模式，再现真实战场；真人实时对战，不再一个人寂寞打枪！ 快加入《全民突击》，体验枪战快感，激爽战斗！<br />重要问题周知：<br />1、请关注”百度贴吧“——”全民突击“吧；<br />2、请关注QQ“兴趣部落”——“全民突击”部落，了解更多资讯；<br />3、全民突击微信公众号"qmtj2015"了解更多资讯。</div>
+            </div>
+            <a class="det-intro-showmore" href="javascript:void(0)" id="J_DetIntroShowMore" style="display: block;">显示更多</a> 
+		</div>
+		<div class="det-about-apps-container J_Mod btn-install-cross" data-modname="appLikeList">
+            <div class="det-about-tit">相关应用</div>
+            <ul class="det-about-applist">
+                <li class="det-about-app-box">
+                    <div class="app-icon"><a href="../myapp/detail.htm?apkName=com.tencent.tmgp.mff&amp;apkCode=10" target="_blank" data-title="漫威:未来之战" class="icon"><img src="http://pp.myapp.com/ma_icon/0/icon_12111724_21343790_1435288122/96" /></a></div>
+                    <div class="app-right-data">
+                        <a class="appName" href="../myapp/detail.htm?apkName=com.tencent.tmgp.mff&amp;apkCode=10" target="_blank">漫威:未来之战</a>
+                        <div class="down-times">40万下载</div>
+	<a class="T_ComEventAppIns com-install-btn" href="javascript:void(0)" onclick="qqapp_dl_apk(this);" ex_url="http://dd.myapp.com/16891/60696576BD30719338358CF61478AF24.apk?fsname=com.tencent.tmgp.mff_1.2.1_10.apk&amp;asr=8eff" asistanturlid="990499" appname="漫威:未来之战" apk="com.tencent.tmgp.mff" appicon="http://pp.myapp.com/ma_icon/0/icon_12111724_21343790_1435288122/96">安装到手机</a>
+                    </div>
+                    <div class="clear"></div>
+                </li>
+                <li class="det-about-app-box">
+                    <div class="app-icon"><a href="../myapp/detail.htm?apkName=com.tencent.game.SSGame&amp;apkCode=224522" target="_blank" data-title="天天飞车" class="icon"><img src="http://pp.myapp.com/ma_icon/0/icon_10307710_21295742_1434537006/96" /></a></div>
+                    <div class="app-right-data">
+                        <a class="appName" href="../myapp/detail.htm?apkName=com.tencent.game.SSGame&amp;apkCode=224522" target="_blank">天天飞车</a>
+                        <div class="down-times">1.6亿下载</div>
+	<a class="T_ComEventAppIns com-install-btn" href="javascript:void(0)" onclick="qqapp_dl_apk(this);" ex_url="http://dd.myapp.com/16891/AADA0D0BD89006299572D59A29B2E4E8.apk?fsname=com.tencent.game.SSGame_2.2.4.522_224522.apk&amp;asr=8eff" asistanturlid="990499" appname="天天飞车" apk="com.tencent.game.SSGame" appicon="http://pp.myapp.com/ma_icon/0/icon_10307710_21295742_1434537006/96">安装到手机</a>
+                    </div>
+                    <div class="clear"></div>
+                </li>
+                <li class="det-about-app-box">
+                    <div class="app-icon"><a href="../myapp/detail.htm?apkName=com.tencent.pao&amp;apkCode=122" target="_blank" data-title="天天酷跑" class="icon"><img src="http://pp.myapp.com/ma_icon/0/icon_10099632_21193516_1433154811/96" /></a></div>
+                    <div class="app-right-data">
+                        <a class="appName" href="../myapp/detail.htm?apkName=com.tencent.pao&amp;apkCode=122" target="_blank">天天酷跑</a>
+                        <div class="down-times">4.5亿下载</div>
+	<a class="T_ComEventAppIns com-install-btn" href="javascript:void(0)" onclick="qqapp_dl_apk(this);" ex_url="http://dd.myapp.com/16891/C149626D05F3D2DFEAFE5CA1E5EEA85C.apk?fsname=com.tencent.pao_1.0.22.0_122.apk&amp;asr=8eff" asistanturlid="990499" appname="天天酷跑" apk="com.tencent.pao" appicon="http://pp.myapp.com/ma_icon/0/icon_10099632_21193516_1433154811/96">安装到手机</a>
+                    </div>
+                    <div class="clear"></div>
+                </li>
+                <li class="det-about-app-box">
+                    <div class="app-icon"><a href="../myapp/detail.htm?apkName=com.tencent.game.VXDGame&amp;apkCode=16018201" target="_blank" data-title="天天炫斗" class="icon"><img src="http://pp.myapp.com/ma_icon/0/icon_10451659_21400348_1436406499/96" /></a></div>
+                    <div class="app-right-data">
+                        <a class="appName" href="../myapp/detail.htm?apkName=com.tencent.game.VXDGame&amp;apkCode=16018201" target="_blank">天天炫斗</a>
+                        <div class="down-times">5551万下载</div>
+	<a class="T_ComEventAppIns com-install-btn" href="javascript:void(0)" onclick="qqapp_dl_apk(this);" ex_url="http://dd.myapp.com/16891/BA159092340CE463F321C669F220E27C.apk?fsname=com.tencent.game.VXDGame_1.16.182.1_16018201.apk&amp;asr=8eff" asistanturlid="990499" appname="天天炫斗" apk="com.tencent.game.VXDGame" appicon="http://pp.myapp.com/ma_icon/0/icon_10451659_21400348_1436406499/96">安装到手机</a>
+                    </div>
+                    <div class="clear"></div>
+                </li>
+                <li class="clear"></li>
+            </ul>
+		</div>
+		<div class="det-submit-container J_Mod" data-modname="commentInfo">
+			<a name="CommentList" id="CommentList"></a>
+            <div class="det-submit-tit">用户评论</div>
+		</div> 
+		<div class="det-comment-list-container">
+            <ul class="det-comment-list-box" id="J_DetShowCommentList" style="display: block;">
+            <li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">属于♀丘比特de爱情♂</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年4月26日 22:45</div><div class="clear"></div></div><div class="comment-datatext">完美，手游中没有一个像是这么好玩的，要是可以出几把英雄武器那就再好不过了</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">我爱那辆银魅</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年4月29日 21:00</div><div class="clear"></div></div><div class="comment-datatext">男生比较爱玩，我希望运气好点，再给我来把紫色的好枪！</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">游客</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年4月30日 12:33</div><div class="clear"></div></div><div class="comment-datatext">好玩，活动好，福利好，样样好！不过出点新模式就好了。</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">2b，，，</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年4月30日 18:51</div><div class="clear"></div></div><div class="comment-datatext">能不能弄个战队模式？啊</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">幸福*^_^*</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年7月7日 22:04</div><div class="clear"></div></div><div class="comment-datatext">虽然我已经是两个孩子的妈妈但是我超喜欢这款游戏的我已经46级了，能让我缓解和释放压力。最喜欢PK了。</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">娃娃兵</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年7月7日 18:59</div><div class="clear"></div></div><div class="comment-datatext">哈哈，我想你们一定没有S级枪，黄金AK47，我在挑战打出了碎片，合成了，我充了很多钻，已经有5千多钻了，金钱都有几百万了。这个游戏太棒了。</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">靓点眼镜</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年7月5日 10:33</div><div class="clear"></div></div><div class="comment-datatext">如果玩着黑屏的 大家把游戏清理一下内存和数据再试试 我也是重启后就发生挑战黑屏 清除数据重新进就好了</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">Sandboxie  Control</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年7月4日 21:23</div><div class="clear"></div></div><div class="comment-datatext">这是我最喜欢的枪战游戏，又爽又刺激，充钱进去，又有钻石，又有特权，而且，特权期限是永久的，又是累积的，非常划算</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">Tired of</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年6月25日 02:45</div><div class="clear"></div></div><div class="comment-datatext">不知道咋样，反正我用4G 3M一秒速度下的。。。为了玩个游戏我也是蛮拼的。</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">我焚香感动了谁</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年6月28日 20:02</div><div class="clear"></div></div><div class="comment-datatext">这是我见过最棒的游戏，枪在手，随时战，我爱突击！
+                         全民突击永远追随者
+
+</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">너도운명</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年6月25日 09:44</div><div class="clear"></div></div><div class="comment-datatext">好游戏玩久也会特无聊，就像天天吃一样的饭，做昨天一样的事你懂得，希望多出新模式期待中</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">√断念™</div><div class="com-star-lit-4-O commont-star"></div><div class="comment-date">2015年5月25日 10:53</div><div class="clear"></div></div><div class="comment-datatext">不错，内存大了点，玩一会手机就发热，触屏失灵，烦人！统计一下数据，哪要的少的，就删一点吧！！</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">≮璃落★幽客≯</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年5月22日 18:07</div><div class="clear"></div></div><div class="comment-datatext">很好，点32个赞，非常好玩我人物都满级了，超爽，请大家都来玩这个游戏，很好玩的。</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">柯南</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年5月23日 13:38</div><div class="clear"></div></div><div class="comment-datatext">真的是他的太好了，请大家快点下载全民突击这个实在是太好玩了，让你相信所有的激情和快乐。真是太好玩，太太太太好玩了，人世界上最好的游戏。请一定要下载玩玩啊！相信我准没错。太好啦！超级好玩。相信我。</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">游子</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年6月29日 19:50</div><div class="clear"></div></div><div class="comment-datatext">龙组
+游戏：全民突击
+QQ公会ID：188396
+QQ群:135853314
+公会介绍：本公会为普通突击玩家公会，欢迎任何安卓大区以及ios大区QQ平台的突击玩家的加入，同时诚邀各个战区战队的入驻！</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">魅影※红尘</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年6月19日 01:10</div><div class="clear"></div></div><div class="comment-datatext">很不错最近出了个新游戏！飘藐之旅！真不错就是宣传没做好3D的到我都V9了呵呵真心感觉游戏不错来这帮游戏宣传下如果来玩我教你们我在游戏叫景天   好游戏和好基友分享来试试∞∞∞∞</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">💏人生如梦👫</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年6月19日 20:48</div><div class="clear"></div></div><div class="comment-datatext">风格梵蒂冈很烦的好好干发挥好广告费一月份姑很符合叫哥哥加工费更好的v衣服上好多个衣服还有人哥几个福回个话GG发挥好刚刚给很尴尬很烦的高压锅放个假方法i话费交话费防腐剂</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">杨幂</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年7月9日 09:27</div><div class="clear"></div></div><div class="comment-datatext">哥们今年高考668能上个985大学了，
+老妈终于让我玩游戏了， 格一一斗一一战一一神，游戏太好玩了，技能炫翻天，还送免费VIP！！
+快来恭喜我，快赞我！</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">逆天</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年6月29日 22:03</div><div class="clear"></div></div><div class="comment-datatext">好玩爆了就是模式太少了要是多几个像cf和逆战里的一些模式比如逆战的挑战cf的暗影的一些模式的就更好玩了  别老是玩枪出点玩刀吧</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">偌&amp;相@惜#卟￥棄^o^</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年7月7日 19:14</div><div class="clear"></div></div><div class="comment-datatext">我从去年就玩了，现在五十五节了，好喜欢这款游戏，掌上CF。就是没有巴雷特。不过真的很好玩的游戏，全民突击。GO  GO</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">半世※晨晓</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年7月7日 15:22</div><div class="clear"></div></div><div class="comment-datatext">我郁闷的是这款游戏既然更新了，最起码工作程序已经准备好了。更新1.7.0怎么会登不上呢！让游迷脑火，我充钱是为登不上嘛！光速给个答案</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">等爱</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年7月6日 22:26</div><div class="clear"></div></div><div class="comment-datatext">全民突击，这个游戏动画制作和衔接堪称完美，游戏模式很多，但我还是比较喜欢2v2的pk模式，很过瘾，我很喜欢，期待新版本</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">我的网名十二个字不信你数</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年7月5日 17:28</div><div class="clear"></div></div><div class="comment-datatext">★★★★★★★
+
+哥们今年高考668能上个985大学了，
+
+高考结束后开始玩     战 神 归 来   这个游戏，太好玩了，技能炫翻天，可以陪伴我度过整个暑假了！！
+快来恭喜我，快赞我！
+</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">℡绹忾鲑鲑M℡</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年7月5日 14:42</div><div class="clear"></div></div><div class="comment-datatext">内存这么大，枪却大少了，希望能多出点地图。特别是自由移动刀战和挑战模式。还能出一点英雄级武器或者是人物。赞同我的点赞。😊😊😊😊😊😊😊😊</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">HLJ love ℳ๓₯㎕</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年6月19日 22:12</div><div class="clear"></div></div><div class="comment-datatext">很好玩，，我现在都有紫色t1加特林了，嘻嘻，有紫色t1加特林的顶起</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">gbgvg纷纷</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年6月18日 22:03</div><div class="clear"></div></div><div class="comment-datatext">可以自由移动的了，我玩了一会pk模式有自由移动的，和枪战差不多能自由移动的了</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">ˋ昔Э年❁ิ</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年6月21日 13:52</div><div class="clear"></div></div><div class="comment-datatext">开始玩时昵称弄到了自己的名字，现在想改也改不了，又不想换区，都玩得这么高级了，应该弄个改名系统了</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">　</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年6月29日 11:29</div><div class="clear"></div></div><div class="comment-datatext">这游戏很好,可以解决那些被父母约束而不能玩电脑的人，有了这游戏，妈妈再也不用担心我会偷偷上网啦，哈哈</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">作业是个打不死的boss</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年7月2日 17:33</div><div class="clear"></div></div><div class="comment-datatext">非常好玩！就是枪械太不容易获得了，到现在我都20多级了，才十几把枪，但总而言之还是很棒的游戏！我向大家推荐一个，全民枪战这个挺好玩儿的。。认同的点个赞哦！</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">为々爱沉℃沦</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年6月25日 15:37</div><div class="clear"></div></div><div class="comment-datatext">感觉还不错   玩了很久了，很喜欢这款游戏，只是漏洞有点多   ！希望能抓紧时间处理好</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">一缕阳光</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年6月23日 14:27</div><div class="clear"></div></div><div class="comment-datatext">很不错的射击游戏。欢迎各位玩家加入全民突击福利活动qq群:20190333。有更多活动礼包与你共享！</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">还有我，不离%</div><div class="com-star-lit-4-O commont-star"></div><div class="comment-date">2015年6月17日 10:31</div><div class="clear"></div></div><div class="comment-datatext">游戏不错，如果有冷兵器，可以近战的话就更完美了，期待腾讯速出近战模式，最好可以是团队的</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">我是永远的我</div><div class="com-star-lit-1-O commont-star"></div><div class="comment-date">2015年7月10日 14:24</div><div class="clear"></div></div><div class="comment-datatext"></div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">迷人的微笑</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年7月10日 14:11</div><div class="clear"></div></div><div class="comment-datatext">一般</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">对风说爱你</div><div class="com-star-lit-5-O commont-star"></div><div class="comment-date">2015年7月10日 14:09</div><div class="clear"></div></div><div class="comment-datatext">挺好玩的，超赞</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">「 尘封的记忆」</div><div class="com-star-lit-4-O commont-star"></div><div class="comment-date">2015年7月10日 14:06</div><div class="clear"></div></div><div class="comment-datatext">好</div></div><div class="clear"></div></li><li class="det-comment-list-every"><div class="det-comment-info"><div class="comment-name-line"><div class="comment-name">野山茶的葬礼</div><div class="com-star-lit-1-O commont-star"></div><div class="comment-date">2015年7月10日 14:01</div><div class="clear"></div></div><div class="comment-datatext">S枪有吗</div></div><div class="clear"></div></li></ul>
+            <a class="det-comment-show-more-btn" id="J_DetCommentShowMoreBtn" href="javascript:void(0)" style="display: block;">查看更多评论</a>
+		</div> 
+		<div class="det-submit-none" id="J_DetSubmitNone">暂无评论</div>
+	</div>
+</div>
+<div class="com-footer" style="margin-top:50px;">
+	<div class="com-footer-top-box clearfix">
+		<div class="com-footer-top-item">
+  			<h3>合作和帮助</h3>
+  			<p><a href="http://open.qq.com/" target="_blank">开放平台</a></p>
+  			<p><a id="J_api" href="http://sj.qq.com/api/index.html" target="_blank">一键安装</a></p>
+  			<p><a href="http://sj.qq.com/links.html" target="_blank">友情链接</a></p>
+  			<p><a href="http://kf.qq.com/product/yyb.html" target="_blank">常见问题</a></p>
+  		</div>
+ 		<div class="com-footer-top-item">
+  			<h3>产品动态</h3>
+  			<p><a href="http://bbs.open.qq.com/forum.php?mod=forumdisplay&amp;fid=1694&amp;filter=typeid&amp;typeid=8211" target="_blank">更新记录</a></p>
+  			<p><a id="J_intro" href="http://sj.qq.com/intro.html" target="_blank">功能介绍</a></p>
+  			<p><a id="J_root" href="http://sj.qq.com/root/index.html" target="_blank">一键Root</a></p>
+  			<p><a id="J_shuaji" href="http://sj.qq.com/shuaji/index.html" target="_blank">一键刷机</a></p>
+  			<p><a href="http://bbs.open.qq.com/thread-3934897-1-1.html" target="_blank">腾讯飞传</a></p>
+ 		</div>
+
+ 		<div class="com-footer-top-item">
+ 			<div class="erwm"></div>
+  			<h3>联系我们</h3>
+  			<p class="com-footer-contus">QQ    群：218938467</p>
+  			<p class="com-footer-contus">官方微博：<a class="qqweibo" target="_blank" href="http://e.t.qq.com/download_app"></a><a class="xinlaweibo" href="http://e.weibo.com/downloadapp" target="_blank"></a></p>
+  			<p class="com-footer-contus">用户论坛：<a class="chart" target="_blank" href="http://androidpc.app.qq.com/app1/vertis.do?id=201311140001"></a>加入</p>
+  			<p>微信公众账号：应用宝</p>
+ 		</div>
+ 		<div class="clear"></div>
+ 	</div>
+	<div class="com-footer-center-container">
+
+    	<a href="http://www.tencent.com/zh-cn/index.shtml" target="_blank">关于腾讯</a>|
+    	<a href="http://www.tencent.com/en-us/index.shtml" target="_blank">About Tencent</a>|
+   	 	<a href="http://www.qq.com/contract.shtml" target="_blank">服务条款</a>|
+   	 	<a href="http://wiki.open.qq.com/index.php?title=%E7%A7%BB%E5%8A%A8%E5%BA%94%E7%94%A8%E4%BE%B5%E6%9D%83%E6%8A%95%E8%AF%89%E6%8C%87%E5%BC%95" target="_blank">侵权投诉指引</a>|
+    	<a href="http://www.tencent.com/zh-cn/at/contactus.shtml" target="_blank">商务洽谈</a>|
+    	<a href="http://hr.tencent.com/" target="_blank">腾讯招聘</a>|
+    	<a href="http://gongyi.qq.com/" target="_blank">腾讯公益</a>|
+    	<a href="http://www.tencent.com/zh-cn/le/copyrightstatement.shtml" target="_blank">版权所有</a>
+    	<div>Copyright © 2012 - 2014 Tencent. All Rights Reserved.</div>
+      <div class="security clearfix">
+        <p>
+          <span class="fl"><a href="http://www.sznet110.gov.cn/netalarm/index.jsp" target="_blank" rel="nofollow"><img width="44" height="50" border="0" alt="深圳网络警察报警平台" src="http://img6.sj.qq.com/res/static/myapp/assets/images/common/police.png" /></a></span>
+          <span class="fr"><a href="http://www.sznet110.gov.cn/netalarm/index.jsp" target="_blank" rel="nofollow">深圳网络警<br />
+            察报警平台</a></span>
+        </p>
+        <p>
+          <span class="fl"><a href="http://www.sznet110.gov.cn/webrecord/innernet/Welcome.jsp?bano=4403101010155" target="_blank" rel="nofollow"><img width="41" height="49" border="0" alt="公共信息安全网络监察" src="http://img6.sj.qq.com/res/static/myapp/assets/images/common/security.png" /></a></span>
+          <span class="fr"><a href="http://www.sznet110.gov.cn/webrecord/innernet/Welcome.jsp?bano=4403101010155" target="_blank" rel="nofollow">公共信息安<br />
+            全网络监察</a></span>
+        </p>
+        <p>
+          <span class="fl"><a href="http://white.anva.org.cn/" target="_blank" rel="nofollow"><img width="48" height="48" border="0" alt="中国互联网协会认证标志" src="http://img6.sj.qq.com/res/static/myapp/assets/images/common/anva-c.png" /></a></span>
+        </p>
+        <p>
+          <span class="fl"><a href="http://white.anva.org.cn/" target="_blank" rel="nofollow"><img width="48" height="48" border="0" alt="中国互联网协会认证标志" src="http://img6.sj.qq.com/res/static/myapp/assets/images/common/anva-e.png" /></a></span>
+        </p>
+      </div>
+	</div>
+</div>
+<script>
+var MOLO = {
+	timestamp : "20140928",//时间戳，改时间戳立即清除静态文件缓存
+	staticVersion : "20140928",//静态文件线上打包部署版本，默认是2.0.0版本
+	staticDomain : "http://img4.sj.qq.com/res/static/myapp/staticVersion/20140928",//http://img1.sj.qq.com/res/app2/
+	assets :"/assets",
+	marketImagesUrl : "http://img4.sj.qq.com/res/static/myapp/staticVersion/20140928/assets/images/app/m4/",
+	urlPre : "http://myapp.com",
+	pageKey : "details",
+	senseParam : "",
+  dp:10006
+}
+</script>
+
+<div class="return-top">
+	<div id="return" class="com-return">
+		<a href="javascript:void(0);"></a>
+	</div>
+</div>
+<script src="http://img4.sj.qq.com/res/static/myapp/assets/js/lib/seajs/2.0/sea.js" type="text/javascript"></script>
+<script type="text/javascript">
+/** 线上 http://ty.3gqq.com/qqapi/scripts/sjqqapi.js**/
+seajs.use(["http://img4.sj.qq.com/res/static/myapp/assets/js/jquery-seajs", "http://img1.sj.qq.com/api/scripts/sjqqapi.js" , ], function(){
+	seajs.use(['http://img4.sj.qq.com/res/static/myapp/staticVersion/20140928/assets/js/app/page/details']);
+});
+
+</script><script type="text/javascript">
+var appDetailData = {
+	orgame : "1",
+	apkName : "com.tencent.WeFire",
+	apkCode : "2510",
+	appId : "11285571",
+	appName: "全民突击",
+	iconUrl:"http://pp.myapp.com/ma_icon/0/icon_11285571_21399036_1436358691/96",
+	appScore:"",
+	downTimes:"45261124",
+	downUrl:"http://dd.myapp.com/16891/5E76AA09A6F09B54C04F2F1A43D09D9D.apk?fsname=com.tencent.WeFire_1.7.0_2510.apk&amp;asr=8eff",
+	tipsUpDown:"false"
+}
+</script>
+
+
+</body></html>

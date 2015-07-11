@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31972" started-at="2015-07-10T06:29:51Z" finished-at="2015-07-10T06:30:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31972" started-at="2015-07-10T06:29:51Z" finished-at="2015-07-10T06:30:23Z">
+      <class name="game.capture.TestTencentGameCapture">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:game.capture.TestTencentGameCapture@8b96fde]" name="setUp" is-config="true" duration-ms="6706" started-at="2015-07-10T14:29:51Z" finished-at="2015-07-10T14:29:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testTencentGameCapture()[pri:0, instance:game.capture.TestTencentGameCapture@8b96fde]" name="testTencentGameCapture" duration-ms="23237" started-at="2015-07-10T14:29:58Z" finished-at="2015-07-10T14:30:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTencentGameCapture -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:game.capture.TestTencentGameCapture@8b96fde]" name="tearDown" is-config="true" duration-ms="1992" started-at="2015-07-10T14:30:21Z" finished-at="2015-07-10T14:30:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- game.capture.TestTencentGameCapture -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

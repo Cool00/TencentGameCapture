@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="yangbing-PC" name="game.capture.TestTencentGameCapture" tests="1" failures="0" timestamp="9 Jul 2015 11:48:11 GMT" time="21.137" errors="0">
+  <testcase name="testCaptureTiantiankupao" time="11.287" classname="game.capture.TestTencentGameCapture"/>
+</testsuite>
